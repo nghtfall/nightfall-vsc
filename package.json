@@ -1,0 +1,35 @@
+{
+    "name": "nightfall",
+    "displayName": "nightfall",
+    "description": "A beautiful, blue-ish gray color palette for Visual Studio Code.",
+    "version": "0.0.1",
+    "publisher": "nightfall",
+    "author": "synthi / synth#0001",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/nghtfall/nightfall-vsc"
+      },
+    "engines": {
+        "vscode": "^1.57.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "theme",
+        "nightfall",
+        "dark",
+        "dark-theme",
+        "purple",
+        "clean"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "nightfall",
+                "uiTheme": "vs-dark",
+                "path": "./themes/nightfall-color-theme.json"
+            }
+        ]
+    }
+}
